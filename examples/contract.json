@@ -1,0 +1,1 @@
+{"schema":1,"frame":"synthetic-room","reference_unit":"m","reconstruction_unit":"mm","threshold_um":10000,"minimum_precision_bp":9000,"minimum_recall_bp":9000,"regions":[{"id":"doorway","min_um":[2000000,0,0],"max_um":[2000000,1000000,0],"minimum_recall_bp":10000}]}
