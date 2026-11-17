@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "spatial-witness"
+version = "0.1.0"
+description = "Explicit-frame point-sample coverage and reconstruction review"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "walker512"}]
+[project.scripts]
+spatial-witness = "spatial_witness.__main__:main"
+[tool.setuptools.packages.find]
+include = ["spatial_witness*"]
